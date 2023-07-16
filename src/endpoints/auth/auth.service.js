@@ -43,6 +43,9 @@ async function authenticate(req) {
     const isPasswordVerify = await passwordManager.verify(password, user.password);
     if (isPasswordVerify) {
 
+        const signInToken = tokenGeneratorUtility.generate({ userId: user._id }, tokentOptions)
+        const refreshToken = tokenGeneratorUtility.generate({ userId: user._id }, refreshTokenOptions)
+
         // Remove User Refresh Tokens
         let userRefreshTokens = await dbRefreshRepository.getUserRefreshTokens(user._id);
 

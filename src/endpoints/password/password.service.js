@@ -77,6 +77,9 @@ async function initialPasswordChange(req) {
 
                 await dbUserRepository.updatePasswordConfirmation(user._id, true, hashedPwd);
 
+                const signToken = tokenGeneratorUtility.generate({ userId: user._id }, tokentOptions);
+                const refreshToken = tokenGeneratorUtility.generate({ userId: user._id }, refreshTokenOptions);
+
                 let newRefreshToken = await dbRefreshRepository.add(refreshToken.token);
 
                 return Response.createResponse(true, "User Logged In Succesfully", 200, {

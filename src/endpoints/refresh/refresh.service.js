@@ -41,6 +41,9 @@ async function refresh(req) {
 
         let userId = refreshToken.userId;
 
+        const signToken = tokenGeneratorUtility.generate({ userId: userId }, tokentOptions)
+        const newRefreshToken = tokenGeneratorUtility.generate({ userId: userId }, refreshTokenOptions)
+
         await dbRepository.add({
             token: newRefreshToken.token,
             userId: userId,

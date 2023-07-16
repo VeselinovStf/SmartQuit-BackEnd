@@ -9,7 +9,6 @@ lerna-debug.log*
 
 # Tests
 __unit_test_reports__/
-__tests__/
 __integration__/
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
