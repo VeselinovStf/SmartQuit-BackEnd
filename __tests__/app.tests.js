@@ -44,7 +44,7 @@ describe('App should..', () => {
             };
         })
 
-        expect(() => require('../app')).not.toThrow();
+        expect(() => require('../index')).not.toThrow();
     })
 
     test('Run server when is set up correctly', () => {
@@ -83,7 +83,7 @@ describe('App should..', () => {
             };
         })
 
-        let backend = require('../app');
+        let backend = require('../index');
 
         expect(app.listen).toBeCalledTimes(1);
         expect(app.use).toBeCalledTimes(3);
@@ -102,6 +102,6 @@ describe('App should..', () => {
             }
         })
 
-        expect(() => require('../app')).toThrow();
+        expect(() => require('../index')).toThrow();
     })
 })

@@ -1,17 +1,17 @@
 {
   "name": "backend",
   "version": "1.0.1",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "doc": "nodemon -x \"jsdoc -c jsdoc.conf.json\"",
     "test": "jest __tests__/",
     "test:report": "npm run test -- --coverage --watchAll=false --coverageDirectory=__unit_test_reports__",
     "test:watch": "jest __tests__/ --watch",
-    "dev": "npm run test:report && nodemon -x \"node app.js\"",
+    "dev": "npm run test:report && nodemon -x \"node index.js\"",
     "test:integration:watch": "jest __integration__/ --watch --runInBand",
     "test:integration": "jest __integration__/ --runInBand",
     "test:integration:report": "npm run test:integration -- --coverage --watchAll=false --coverageDirectory=__integration_test_reports__",
-    "prod": "node app.js"
+    "prod": "node index.js"
   },
   "author": "",
   "license": "ISC",

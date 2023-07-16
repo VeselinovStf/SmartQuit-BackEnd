@@ -24,19 +24,11 @@ describe('Password Service Should..', () => {
                             isLocked: false,
                             passwordConfirmed: false,
                             password: "hashedPwdOne1",
-                            tilesAccessToken: "tilesAccessToken",
-                            routesAccessToken: "routesAccessToken",
                             createdAt: new Date(),
                             updatedAt: new Date()
                         }];
                     },
                     updatePasswordConfirmation: function (val, valT, valV) {
-                        return true;
-                    },
-                    updateTilesAccessToken: function (val, valT) {
-                        return true;
-                    },
-                    updateRoutesAccessToken: function (val, valT) {
                         return true;
                     }
                 }
@@ -193,12 +185,6 @@ describe('Password Service Should..', () => {
                     },
                     updatePasswordConfirmation: function (val, valT, valV) {
                         return true;
-                    },
-                    updateTilesAccessToken: function (val, valT) {
-                        return true;
-                    },
-                    updateRoutesAccessToken: function (val, valT) {
-                        return true;
                     }
                 }
             });
@@ -228,19 +214,11 @@ describe('Password Service Should..', () => {
                             isLocked: true,
                             passwordConfirmed: false,
                             password: "hashedPwdOne1",
-                            tilesAccessToken: "tilesAccessToken",
-                            routesAccessToken: "routesAccessToken",
                             createdAt: new Date(),
                             updatedAt: new Date()
                         }];
                     },
                     updatePasswordConfirmation: function (val, valT, valV) {
-                        return true;
-                    },
-                    updateTilesAccessToken: function (val, valT) {
-                        return true;
-                    },
-                    updateRoutesAccessToken: function (val, valT) {
                         return true;
                     }
                 }
@@ -272,19 +250,11 @@ describe('Password Service Should..', () => {
                             isLocked: false,
                             passwordConfirmed: false,
                             password: "hashedPwdOne1",
-                            tilesAccessToken: "tilesAccessToken",
-                            routesAccessToken: "routesAccessToken",
                             createdAt: new Date(),
                             updatedAt: new Date()
                         }];
                     },
                     updatePasswordConfirmation: function (val, valT, valV) {
-                        return true;
-                    },
-                    updateTilesAccessToken: function (val, valT) {
-                        return true;
-                    },
-                    updateRoutesAccessToken: function (val, valT) {
                         return true;
                     }
                 }
@@ -327,19 +297,11 @@ describe('Password Service Should..', () => {
                             isLocked: false,
                             passwordConfirmed: true,
                             password: "hashedPwdOne1",
-                            tilesAccessToken: "tilesAccessToken",
-                            routesAccessToken: "routesAccessToken",
                             createdAt: new Date(),
                             updatedAt: new Date()
                         }];
                     },
                     updatePasswordConfirmation: function (val, valT, valV) {
-                        return true;
-                    },
-                    updateTilesAccessToken: function (val, valT) {
-                        return true;
-                    },
-                    updateRoutesAccessToken: function (val, valT) {
                         return true;
                     }
                 }
@@ -381,19 +343,11 @@ describe('Password Service Should..', () => {
                             isLocked: false,
                             passwordConfirmed: true,
                             password: "hashedPwdOne1",
-                            tilesAccessToken: "tilesAccessToken",
-                            routesAccessToken: "routesAccessToken",
                             createdAt: new Date(),
                             updatedAt: new Date()
                         }];
                     },
                     updatePasswordConfirmation: function (val, valT, valV) {
-                        return true;
-                    },
-                    updateTilesAccessToken: function (val, valT) {
-                        return true;
-                    },
-                    updateRoutesAccessToken: function (val, valT) {
                         return true;
                     }
                 }

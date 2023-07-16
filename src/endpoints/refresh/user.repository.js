@@ -13,35 +13,10 @@ const appConfigMod = require('../../app/app.config');
 
 ObjectId = require('mongodb').ObjectId;
 
-
-async function updateTilesAccessToken(userId, token) {
-    return dbConnect
-        .collection(appConfigMod.DB_COLLECTIONS.users)
-        .updateOne(
-            { '_id': new ObjectId(userId), 'isLocked' : false },
-            {
-                $set: {
-                    tilesAccessToken: token
-                }
-            }
-        );
-}
-
-async function updateRoutesAccessToken(userId, token) {
-    return dbConnect
-        .collection(appConfigMod.DB_COLLECTIONS.users)
-        .updateOne({ '_id': new ObjectId(userId), 'isLocked' : false }, {
-            $set: {
-                routesAccessToken: token
-            }
-        }
-        );
-}
-
 /**
  * Refresh User Repository
  * @module refresh
  */
 module.exports = {
-    updateTilesAccessToken, updateRoutesAccessToken
+    
 }

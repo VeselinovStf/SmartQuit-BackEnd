@@ -27,8 +27,6 @@ const authConfigMod = require('./jwt.config');
 function generate(tokenPayload, option) {
     var payload = {
         data1: tokenPayload.userId.toString(), // TODO: Rename this property!
-        tt: tokenPayload.tilesAccessToken,
-        rt: tokenPayload.routesAccessToken
     };
 
     const jwtBearerToken = jwt.sign(payload, authConfigMod.RSA_PRIVATE_KEY, option);

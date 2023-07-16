@@ -76,11 +76,8 @@ module.exports = {
                         isLocked: false,
                         passwordConfirmed: true,
                         password: hashedPwdOne,
-                        tilesAccessToken: tilesAccessToken,
-                        routesAccessToken: routesAccessToken,
                         createdAt: new Date(),
-                        updatedAt: new Date(),
-                        subscriptionId: subscriptionId
+                        updatedAt: new Date()
                     });
         }
     }

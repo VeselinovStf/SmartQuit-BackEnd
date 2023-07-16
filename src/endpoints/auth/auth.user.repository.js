@@ -60,46 +60,11 @@ async function updatePasswordConfirmation(userId, confirmationStatus, newPasswor
 }
 
 /**
- * Update Tile Access Token
- * @memberof endpoints/auth/user-repository
- */
-async function updateTilesAccessToken(userId, token) {
-    return dbConnect
-        .collection(appConfigMod.DB_COLLECTIONS.users)
-        .updateOne(
-            { '_id': new ObjectId(userId), 'isLocked': false },
-            {
-                $set: {
-                    tilesAccessToken: token
-                }
-            }
-        );
-}
-
-/**
- * Updates Routes access token
- * @param {string} userId 
- * @memberof endpoints/auth/user-repository
- */
-async function updateRoutesAccessToken(userId, token) {
-    return dbConnect
-        .collection(appConfigMod.DB_COLLECTIONS.users)
-        .updateOne({ '_id': new ObjectId(userId), 'isLocked': false }, {
-            $set: {
-                routesAccessToken: token
-            }
-        }
-        );
-}
-
-/**
  * Authentication User Repository Methods
  * @module auth
  */
 module.exports = {
     findUser,
     updatePasswordConfirmation,
-    findSingleUser,
-    updateTilesAccessToken,
-    updateRoutesAccessToken
+    findSingleUser
 }

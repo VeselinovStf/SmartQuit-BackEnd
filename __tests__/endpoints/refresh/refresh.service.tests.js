@@ -28,16 +28,6 @@ describe('Refresh Service Should..', () => {
                 }
             });
 
-            jest.doMock('../../../src/endpoints/refresh/user.repository', () => {
-                return {
-                    updateTilesAccessToken: function (val, valT) {
-                        return true
-                    },
-                    updateRoutesAccessToken: function (val, valT) {
-                        return true
-                    }
-                }
-            });
 
             jest.doMock('../../../src/endpoints/refresh/refresh.repository', () => {
                 return {

@@ -105,12 +105,6 @@ describe('Auth Service Should..', () => {
                             password: password,
                             passwordConfirmed: true
                         }
-                    },
-                    updateTilesAccessToken: function (id, token) {
-                        return true;
-                    },
-                    updateRoutesAccessToken: function (id, token) {
-                        return true;
                     }
                 }
             })
@@ -240,12 +234,6 @@ describe('Auth Service Should..', () => {
                             password: password,
                             passwordConfirmed: false
                         }
-                    },
-                    updateTilesAccessToken: function (id, token) {
-                        return true;
-                    },
-                    updateRoutesAccessToken: function (id, token) {
-                        return true;
                     }
                 }
             })
@@ -296,12 +284,6 @@ describe('Auth Service Should..', () => {
                             password: password,
                             passwordConfirmed: true
                         }
-                    },
-                    updateTilesAccessToken: function (id, token) {
-                        return true;
-                    },
-                    updateRoutesAccessToken: function (id, token) {
-                        return true;
                     }
                 }
             })
@@ -356,12 +338,6 @@ describe('Auth Service Should..', () => {
                             password: password,
                             passwordConfirmed: true
                         }
-                    },
-                    updateTilesAccessToken: function (id, token) {
-                        return true;
-                    },
-                    updateRoutesAccessToken: function (id, token) {
-                        return true;
                     }
                 }
             })
