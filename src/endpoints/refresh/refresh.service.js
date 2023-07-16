@@ -41,15 +41,6 @@ async function refresh(req) {
 
         let userId = refreshToken.userId;
 
-        let tilesAccessToken = uuid();
-        let routesAccessToken = uuid();
-
-        const signToken = tokenGeneratorUtility.generate({ userId: userId, tilesAccessToken: tilesAccessToken, routesAccessToken: routesAccessToken }, tokentOptions)
-        const newRefreshToken = tokenGeneratorUtility.generate({ userId: userId, tilesAccessToken: tilesAccessToken, routesAccessToken: routesAccessToken }, refreshTokenOptions)
-
-        await dbUserRepository.updateTilesAccessToken(userId, tilesAccessToken);
-        await dbUserRepository.updateRoutesAccessToken(userId, routesAccessToken);
-
         await dbRepository.add({
             token: newRefreshToken.token,
             userId: userId,

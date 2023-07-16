@@ -77,15 +77,6 @@ async function initialPasswordChange(req) {
 
                 await dbUserRepository.updatePasswordConfirmation(user._id, true, hashedPwd);
 
-                let tilesAccessToken = new ObjectId();
-                let routesAccessToken = new ObjectId();
-
-                const signToken = tokenGeneratorUtility.generate({ userId: user._id, tilesAccessToken: tilesAccessToken, routesAccessToken: routesAccessToken }, tokentOptions);
-                const refreshToken = tokenGeneratorUtility.generate({ userId: user._id, tilesAccessToken: tilesAccessToken, routesAccessToken: routesAccessToken }, refreshTokenOptions);
-
-                await dbUserRepository.updateTilesAccessToken(user._id, tilesAccessToken);
-                await dbUserRepository.updateRoutesAccessToken(user._id, routesAccessToken);
-
                 let newRefreshToken = await dbRefreshRepository.add(refreshToken.token);
 
                 return Response.createResponse(true, "User Logged In Succesfully", 200, {

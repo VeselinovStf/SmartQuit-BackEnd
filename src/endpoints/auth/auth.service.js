@@ -43,12 +43,6 @@ async function authenticate(req) {
     const isPasswordVerify = await passwordManager.verify(password, user.password);
     if (isPasswordVerify) {
 
-        let tilesAccessToken = uuid();
-        let routesAccessToken = uuid();
-
-        const signInToken = tokenGeneratorUtility.generate({ userId: user._id, tilesAccessToken: tilesAccessToken, routesAccessToken: routesAccessToken }, tokentOptions)
-        const refreshToken = tokenGeneratorUtility.generate({ userId: user._id, tilesAccessToken: tilesAccessToken, routesAccessToken: routesAccessToken }, refreshTokenOptions)
-
         // Remove User Refresh Tokens
         let userRefreshTokens = await dbRefreshRepository.getUserRefreshTokens(user._id);
 
@@ -61,9 +55,6 @@ async function authenticate(req) {
 
             logger.info(`Login User: ${user._id} : Refresh Tokens Cleared!`)
         }
-
-        await dbUserRepository.updateTilesAccessToken(user._id, tilesAccessToken);
-        await dbUserRepository.updateRoutesAccessToken(user._id, routesAccessToken);
 
         let newRefreshToken = await dbRefreshRepository.add({
             token: refreshToken.token,
