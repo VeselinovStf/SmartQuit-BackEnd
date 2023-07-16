@@ -16,4 +16,5 @@ module.exports = function (app) {
     app.use('/api/auth', require('../endpoints/auth/auth.route'));
     app.use('/api/refreshtoken', require('../endpoints/refresh/refresh.route'));
     app.use('/api/initial', require('../endpoints/password/password.route')); // Password Endpoind - used only for initial password change AUTHORIZED
+    app.use('/api/smoke', require('../endpoints/smoke/smoke.route')); 
 }

@@ -18,11 +18,12 @@ describe('App Routes Should..', () => {
         jest.doMock('../../src/endpoints/auth/auth.route', () => { return jest.fn() })
         jest.doMock('../../src/endpoints/refresh/refresh.route', () => { return jest.fn() })
         jest.doMock('../../src/endpoints/password/password.route', () => { return jest.fn() })
+        jest.doMock('../../src/endpoints/smoke/smoke.route', () => { return jest.fn() })
 
         
         let routing = require('../../src/app/app.routes');
         routing(app)
 
-        expect(app.use).toBeCalledTimes(3);
+        expect(app.use).toBeCalledTimes(4);
     })
 })

@@ -42,13 +42,8 @@ module.exports = {
     PORT: process.env.BACKEND_PORT,
     CORS_ORIGIN_ADDRESS: process.env.BACKEND_CORS_ORIGIN_ADDRESS,
     DB_COLLECTIONS: {
-        devices: 'devices',
         users: 'users',
         refreshTokens: 'refreshTokens',
-        locations: 'Status_',
-        products: 'products',
-        functions: 'functions',
-        subscriptions: 'subscriptions',
-        status: process.env.LORA_STATUS_COLLECTION
+        smokes: 'smokes'
     }
 }
