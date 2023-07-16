@@ -28,10 +28,18 @@ async function add(smoke) {
     return smoke;
 }
 
+async function getAll() {
+    return dbConnect
+        .collection(appConfigMod.DB_COLLECTIONS.smokes)
+        .find()
+        .toArray();
+}
+
 /**
  * Smoke Repository
  * @module smoke
  */
 module.exports = {
     add,
+    getAll,
 }

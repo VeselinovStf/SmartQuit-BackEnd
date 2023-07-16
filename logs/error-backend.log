@@ -1,0 +1,24 @@
+{"level":"error","message":"Can't Get Smokes: Error : smokeService.getAll is not a function","timestamp":"2023-07-16 15:57:25"}
+{"level":"error","message":"Can't Get Smokes: Error : smokeService.getAll is not a function","timestamp":"2023-07-16 15:57:29"}
+{"level":"error","message":"Can't Get Smokes: Error : smokeService.getAll is not a function","timestamp":"2023-07-16 15:57:40"}
+{"level":"error","timestamp":"2023-07-16 15:58:11"}
+{"level":"error","timestamp":"2023-07-16 15:58:12"}
+{"level":"error","timestamp":"2023-07-16 15:58:11"}
+{"level":"error","timestamp":"2023-07-16 15:58:12"}
+{"level":"error","message":"Invalid User Request: Cannot read properties of undefined (reading 'email')","timestamp":"2023-07-16 15:58:11"}
+{"level":"error","message":"Invalid User Request: email : is invalid; ","timestamp":"2023-07-16 15:58:12"}
+{"level":"error","message":"Invalid User Request: oldPassword : is invalid; ","timestamp":"2023-07-16 15:58:12"}
+{"level":"error","message":"Invalid User Request: oldPassword : is invalid; ","timestamp":"2023-07-16 15:58:13"}
+{"level":"error","message":"Invalid User Request: newPassword : is invalid; ","timestamp":"2023-07-16 15:58:13"}
+{"level":"error","message":"Invalid User Request: newPassword : is invalid; ","timestamp":"2023-07-16 15:58:13"}
+{"level":"error","message":"User: userId : Is Locked and try to login","timestamp":"2023-07-16 15:58:14"}
+{"level":"error","message":"Invalid User Request: email : is invalid; password : is invalid; ","timestamp":"2023-07-16 15:58:11"}
+{"level":"error","message":"Invalid User Request: email : is invalid; ","timestamp":"2023-07-16 15:58:12"}
+{"level":"error","message":"Invalid User Request: email : is invalid; ","timestamp":"2023-07-16 15:58:13"}
+{"level":"error","message":"Invalid User Request: email : is invalid; ","timestamp":"2023-07-16 15:58:13"}
+{"level":"error","message":"Invalid User Request: password : is invalid; ","timestamp":"2023-07-16 15:58:14"}
+{"level":"error","message":"Invalid User Request: password : is invalid; ","timestamp":"2023-07-16 15:58:14"}
+{"level":"error","message":"Invalid User Request: password : is invalid; ","timestamp":"2023-07-16 15:58:15"}
+{"level":"error","message":"User with email: test@mail.com : Is not found","timestamp":"2023-07-16 15:58:15"}
+{"level":"error","message":"User: undefined : Is Locked and try to login","timestamp":"2023-07-16 15:58:15"}
+{"level":"error","message":"Can't Get Smokes: Error : smokeService.getAll is not a function","timestamp":"2023-07-16 15:58:33"}

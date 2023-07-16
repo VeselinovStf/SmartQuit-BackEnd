@@ -8,6 +8,11 @@ const logger = require('../../app-packages/logger')
 const objectValidator = require('../../app-packages/object.validator');
 const smokeRequestShema = require('./shemas/smoke.request.shema')
 
+/**
+ * Counts Smokes
+ * @param {*} req Request Data for smoke
+ * @returns 
+ */
 async function smokeCount(req) {
     try {
         const requestValidation = objectValidator(req, smokeRequestShema);
@@ -32,7 +37,23 @@ async function smokeCount(req) {
 }
 
 /**
+ * Gets All Smokes
+ * @returns All Smokes in database
+ */
+async function getAll() {
+    try {
+        var smokes = await dbRepository.getAll();
+
+        return Response.createResponse(true, "Returning Smokes", 200, smokes);
+    } catch (err) {
+        logger.error(err.message);
+
+        return Response.createResponse(false, "Invalid Request", 500);
+    }
+}
+
+/**
  * Smoke Service
  * @module smoke
  */
-module.exports = { smokeCount };
+module.exports = { smokeCount, getAll };

@@ -23,7 +23,24 @@ async function smokeCount(req, res, next) {
 }
 
 /**
- * Password Controller
+ * api/smoke [POST] getAllSmokes
+ * @memberof endpoints/smoke/controller
+ * @param {Express.req} req Endpoind Request
+ * @param {Express.res} res Endpoind Response
+ * @param {Express.next} next Next Call
+ */
+async function getAllSmokes(req, res, next) {
+    try {
+        res.json(await smokeService.getAll())
+    } catch (err) {
+        logger.error(`Can't Get Smokes: Error : ${err.message}`);
+
+        res.status(400).end();
+    }
+}
+
+/**
+ * Smoke Controller
  * @module smoke
  */
-module.exports = { smokeCount };
+module.exports = { smokeCount, getAllSmokes };

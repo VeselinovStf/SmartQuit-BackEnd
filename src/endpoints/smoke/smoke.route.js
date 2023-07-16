@@ -8,8 +8,11 @@ const router = express.Router();
 const smokeController = require('./smoke.controller');
 const auth = require('../../app-packages/token/jwt.auth.middleware');
 
-/* POST refresh token */
+/* POST smoke */
 router.post('', auth, smokeController.smokeCount);
+
+/* GET smokes */
+router.get('', auth, smokeController.getAllSmokes)
 
 /**
  * Smoke Route
