@@ -65,7 +65,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-- Application start up starts in <a href="module-app.html">app.js</a>
+- Application start up starts in <a href="module-app.html">index.js</a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -86,7 +86,7 @@
   - Modules represent group of namespaces that acts together.
   - Namespaces groups different js files under dedicated name group. Usualy every namespace represent js file, but the naming conventio of modules groups the together ( ex: app/server app/routes = conponent/related-to-component )
   #### Start-up
-  - The start up represented by app.js ( <a href="app_app.html">App Server</a> ) prepares Express for application configuration;
+  - The start up represented by index.js ( <a href="app_app.html">App Server</a> ) prepares Express for application configuration;
   - Main Application start up at <a href="app_app.html">App Server</a>- server runs in order through initializers and configurations represented from modules that takes Express instance trough and works as:
     - <a href="app_middleware.html">App Midleware</a> Adds all application request Middleware:
       - bodyParser
