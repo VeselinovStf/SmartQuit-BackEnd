@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1689485145799" clover="3.2.0">
-  <project timestamp="1689485145799" name="All files">
+<coverage generated="1689487219008" clover="3.2.0">
+  <project timestamp="1689487219008" name="All files">
     <metrics statements="382" coveredstatements="299" conditionals="88" coveredconditionals="55" methods="49" coveredmethods="27" elements="519" coveredelements="381" complexity="0" loc="382" ncloc="382" packages="13" files="29" classes="29"/>
-    <package name="backend">
+    <package name="SmartQuit-BackEnd">
       <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="app.js" path="F:\HUB\_MVP\_cyclic\backend\app.js">
+      <file name="app.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\app.js">
         <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="11" count="3" type="stmt"/>
         <line num="12" count="3" type="stmt"/>
@@ -18,16 +18,16 @@
         <line num="68" count="2" type="stmt"/>
       </file>
     </package>
-    <package name="backend.src.app">
+    <package name="SmartQuit-BackEnd.src.app">
       <metrics statements="58" coveredstatements="52" conditionals="6" coveredconditionals="6" methods="9" coveredmethods="5"/>
-      <file name="app.config.js" path="F:\HUB\_MVP\_cyclic\backend\src\app\app.config.js">
+      <file name="app.config.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\app\app.config.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="19" count="11" type="stmt"/>
         <line num="25" count="11" type="stmt"/>
         <line num="31" count="11" type="stmt"/>
         <line num="41" count="11" type="stmt"/>
       </file>
-      <file name="app.middlewares.js" path="F:\HUB\_MVP\_cyclic\backend\src\app\app.middlewares.js">
+      <file name="app.middlewares.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\app\app.middlewares.js">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
@@ -37,14 +37,14 @@
         <line num="20" count="1" type="stmt"/>
         <line num="25" count="1" type="stmt"/>
       </file>
-      <file name="app.routes.js" path="F:\HUB\_MVP\_cyclic\backend\src\app\app.routes.js">
+      <file name="app.routes.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\app\app.routes.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="13" count="2" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
         <line num="17" count="1" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
       </file>
-      <file name="app.security.js" path="F:\HUB\_MVP\_cyclic\backend\src\app\app.security.js">
+      <file name="app.security.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\app\app.security.js">
         <metrics statements="18" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
@@ -65,7 +65,7 @@
         <line num="39" count="1" type="stmt"/>
         <line num="40" count="1" type="stmt"/>
       </file>
-      <file name="app.server.js" path="F:\HUB\_MVP\_cyclic\backend\src\app\app.server.js">
+      <file name="app.server.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\app\app.server.js">
         <metrics statements="13" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="1"/>
         <line num="12" count="1" type="stmt"/>
         <line num="13" count="1" type="stmt"/>
@@ -81,7 +81,7 @@
         <line num="36" count="0" type="stmt"/>
         <line num="37" count="0" type="stmt"/>
       </file>
-      <file name="app.setup.js" path="F:\HUB\_MVP\_cyclic\backend\src\app\app.setup.js">
+      <file name="app.setup.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\app\app.setup.js">
         <metrics statements="12" coveredstatements="12" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
         <line num="17" count="2" type="stmt"/>
         <line num="18" count="2" type="stmt"/>
@@ -97,9 +97,9 @@
         <line num="43" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="backend.src.app-packages">
+    <package name="SmartQuit-BackEnd.src.app-packages">
       <metrics statements="38" coveredstatements="36" conditionals="15" coveredconditionals="13" methods="8" coveredmethods="8"/>
-      <file name="http.client.js" path="F:\HUB\_MVP\_cyclic\backend\src\app-packages\http.client.js">
+      <file name="http.client.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\app-packages\http.client.js">
         <metrics statements="15" coveredstatements="13" conditionals="11" coveredconditionals="9" methods="2" coveredmethods="2"/>
         <line num="9" count="7" type="stmt"/>
         <line num="19" count="5" type="cond" truecount="5" falsecount="0"/>
@@ -117,13 +117,13 @@
         <line num="50" count="1" type="stmt"/>
         <line num="57" count="7" type="stmt"/>
       </file>
-      <file name="logger.js" path="F:\HUB\_MVP\_cyclic\backend\src\app-packages\logger.js">
+      <file name="logger.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\app-packages\logger.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="6" count="40" type="stmt"/>
         <line num="8" count="40" type="stmt"/>
         <line num="31" count="40" type="stmt"/>
       </file>
-      <file name="object.validator.js" path="F:\HUB\_MVP\_cyclic\backend\src\app-packages\object.validator.js">
+      <file name="object.validator.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\app-packages\object.validator.js">
         <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
         <line num="15" count="34" type="stmt"/>
         <line num="16" count="34" type="stmt"/>
@@ -138,7 +138,7 @@
         <line num="42" count="2" type="stmt"/>
         <line num="54" count="34" type="stmt"/>
       </file>
-      <file name="password.manager.js" path="F:\HUB\_MVP\_cyclic\backend\src\app-packages\password.manager.js">
+      <file name="password.manager.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\app-packages\password.manager.js">
         <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
         <line num="14" count="11" type="stmt"/>
         <line num="34" count="1" type="stmt"/>
@@ -150,14 +150,14 @@
         <line num="68" count="11" type="stmt"/>
       </file>
     </package>
-    <package name="backend.src.app-packages.db">
+    <package name="SmartQuit-BackEnd.src.app-packages.db">
       <metrics statements="24" coveredstatements="15" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="1"/>
-      <file name="db.config.js" path="F:\HUB\_MVP\_cyclic\backend\src\app-packages\db\db.config.js">
+      <file name="db.config.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\app-packages\db\db.config.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="17" count="10" type="stmt"/>
         <line num="26" count="10" type="stmt"/>
       </file>
-      <file name="db.data.mongodb.js" path="F:\HUB\_MVP\_cyclic\backend\src\app-packages\db\db.data.mongodb.js">
+      <file name="db.data.mongodb.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\app-packages\db\db.data.mongodb.js">
         <metrics statements="9" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
         <line num="19" count="9" type="stmt"/>
         <line num="25" count="9" type="stmt"/>
@@ -169,7 +169,7 @@
         <line num="53" count="0" type="stmt"/>
         <line num="57" count="15" type="stmt"/>
       </file>
-      <file name="seed.data.mongodb.js" path="F:\HUB\_MVP\_cyclic\backend\src\app-packages\db\seed.data.mongodb.js">
+      <file name="seed.data.mongodb.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\app-packages\db\seed.data.mongodb.js">
         <metrics statements="13" coveredstatements="7" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="20" count="1" type="stmt"/>
         <line num="26" count="1" type="stmt"/>
@@ -186,9 +186,9 @@
         <line num="71" count="0" type="stmt"/>
       </file>
     </package>
-    <package name="backend.src.app-packages.middlewares">
+    <package name="SmartQuit-BackEnd.src.app-packages.middlewares">
       <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="errorHandler.middleware.js" path="F:\HUB\_MVP\_cyclic\backend\src\app-packages\middlewares\errorHandler.middleware.js">
+      <file name="errorHandler.middleware.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\app-packages\middlewares\errorHandler.middleware.js">
         <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="18" count="4" type="stmt"/>
         <line num="25" count="4" type="stmt"/>
@@ -200,17 +200,17 @@
         <line num="49" count="2" type="stmt"/>
       </file>
     </package>
-    <package name="backend.src.app-packages.models">
+    <package name="SmartQuit-BackEnd.src.app-packages.models">
       <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
-      <file name="response.model.js" path="F:\HUB\_MVP\_cyclic\backend\src\app-packages\models\response.model.js">
+      <file name="response.model.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\app-packages\models\response.model.js">
         <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="24" count="34" type="stmt"/>
         <line num="40" count="37" type="stmt"/>
       </file>
     </package>
-    <package name="backend.src.app-packages.token">
+    <package name="SmartQuit-BackEnd.src.app-packages.token">
       <metrics statements="54" coveredstatements="25" conditionals="18" coveredconditionals="1" methods="4" coveredmethods="1"/>
-      <file name="jwt.auth.middleware.js" path="F:\HUB\_MVP\_cyclic\backend\src\app-packages\token\jwt.auth.middleware.js">
+      <file name="jwt.auth.middleware.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\app-packages\token\jwt.auth.middleware.js">
         <metrics statements="12" coveredstatements="2" conditionals="8" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="8" count="1" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
@@ -225,14 +225,14 @@
         <line num="29" count="0" type="stmt"/>
         <line num="31" count="0" type="stmt"/>
       </file>
-      <file name="jwt.config.js" path="F:\HUB\_MVP\_cyclic\backend\src\app-packages\token\jwt.config.js">
+      <file name="jwt.config.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\app-packages\token\jwt.config.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="10" count="36" type="stmt"/>
         <line num="11" count="36" type="stmt"/>
         <line num="12" count="36" type="stmt"/>
         <line num="18" count="36" type="stmt"/>
       </file>
-      <file name="jwt.token.generator.js" path="F:\HUB\_MVP\_cyclic\backend\src\app-packages\token\jwt.token.generator.js">
+      <file name="jwt.token.generator.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\app-packages\token\jwt.token.generator.js">
         <metrics statements="30" coveredstatements="11" conditionals="10" coveredconditionals="1" methods="3" coveredmethods="1"/>
         <line num="10" count="15" type="stmt"/>
         <line num="11" count="15" type="stmt"/>
@@ -265,7 +265,7 @@
         <line num="110" count="0" type="stmt"/>
         <line num="121" count="15" type="stmt"/>
       </file>
-      <file name="jwt.token.options.js" path="F:\HUB\_MVP\_cyclic\backend\src\app-packages\token\jwt.token.options.js">
+      <file name="jwt.token.options.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\app-packages\token\jwt.token.options.js">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="12" count="35" type="stmt"/>
         <line num="14" count="35" type="stmt"/>
@@ -277,9 +277,9 @@
         <line num="55" count="35" type="stmt"/>
       </file>
     </package>
-    <package name="backend.src.endpoints.auth">
+    <package name="SmartQuit-BackEnd.src.endpoints.auth">
       <metrics statements="83" coveredstatements="56" conditionals="18" coveredconditionals="11" methods="14" coveredmethods="2"/>
-      <file name="auth.refresh.repository.js" path="F:\HUB\_MVP\_cyclic\backend\src\endpoints\auth\auth.refresh.repository.js">
+      <file name="auth.refresh.repository.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\endpoints\auth\auth.refresh.repository.js">
         <metrics statements="13" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
         <line num="5" count="7" type="stmt"/>
         <line num="6" count="7" type="stmt"/>
@@ -295,7 +295,7 @@
         <line num="50" count="0" type="stmt"/>
         <line num="60" count="7" type="stmt"/>
       </file>
-      <file name="auth.service.js" path="F:\HUB\_MVP\_cyclic\backend\src\endpoints\auth\auth.service.js">
+      <file name="auth.service.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\endpoints\auth\auth.service.js">
         <metrics statements="60" coveredstatements="46" conditionals="18" coveredconditionals="11" methods="4" coveredmethods="2"/>
         <line num="5" count="14" type="stmt"/>
         <line num="6" count="14" type="stmt"/>
@@ -358,7 +358,7 @@
         <line num="119" count="0" type="stmt"/>
         <line num="127" count="14" type="stmt"/>
       </file>
-      <file name="auth.user.repository.js" path="F:\HUB\_MVP\_cyclic\backend\src\endpoints\auth\auth.user.repository.js">
+      <file name="auth.user.repository.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\endpoints\auth\auth.user.repository.js">
         <metrics statements="10" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
         <line num="6" count="7" type="stmt"/>
         <line num="7" count="7" type="stmt"/>
@@ -372,9 +372,9 @@
         <line num="99" count="7" type="stmt"/>
       </file>
     </package>
-    <package name="backend.src.endpoints.auth.shemas">
+    <package name="SmartQuit-BackEnd.src.endpoints.auth.shemas">
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <file name="auth.request.shema.js" path="F:\HUB\_MVP\_cyclic\backend\src\endpoints\auth\shemas\auth.request.shema.js">
+      <file name="auth.request.shema.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\endpoints\auth\shemas\auth.request.shema.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="10" count="14" type="stmt"/>
         <line num="12" count="14" type="stmt"/>
@@ -382,14 +382,14 @@
         <line num="23" count="14" type="stmt"/>
       </file>
     </package>
-    <package name="backend.src.endpoints.password">
+    <package name="SmartQuit-BackEnd.src.endpoints.password">
       <metrics statements="56" coveredstatements="48" conditionals="16" coveredconditionals="13" methods="1" coveredmethods="1"/>
-      <file name="password.config.js" path="F:\HUB\_MVP\_cyclic\backend\src\endpoints\password\password.config.js">
+      <file name="password.config.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\endpoints\password\password.config.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="8" count="12" type="stmt"/>
         <line num="14" count="12" type="stmt"/>
       </file>
-      <file name="password.service.js" path="F:\HUB\_MVP\_cyclic\backend\src\endpoints\password\password.service.js">
+      <file name="password.service.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\endpoints\password\password.service.js">
         <metrics statements="54" coveredstatements="46" conditionals="16" coveredconditionals="13" methods="1" coveredmethods="1"/>
         <line num="9" count="12" type="stmt"/>
         <line num="10" count="12" type="stmt"/>
@@ -447,9 +447,9 @@
         <line num="116" count="12" type="stmt"/>
       </file>
     </package>
-    <package name="backend.src.endpoints.password.shemas">
+    <package name="SmartQuit-BackEnd.src.endpoints.password.shemas">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-      <file name="initialPasswordChange.request.shema.js" path="F:\HUB\_MVP\_cyclic\backend\src\endpoints\password\shemas\initialPasswordChange.request.shema.js">
+      <file name="initialPasswordChange.request.shema.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\endpoints\password\shemas\initialPasswordChange.request.shema.js">
         <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="10" count="12" type="stmt"/>
         <line num="12" count="11" type="stmt"/>
@@ -458,9 +458,9 @@
         <line num="26" count="12" type="stmt"/>
       </file>
     </package>
-    <package name="backend.src.endpoints.refresh">
+    <package name="SmartQuit-BackEnd.src.endpoints.refresh">
       <metrics statements="37" coveredstatements="35" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
-      <file name="refresh.service.js" path="F:\HUB\_MVP\_cyclic\backend\src\endpoints\refresh\refresh.service.js">
+      <file name="refresh.service.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\endpoints\refresh\refresh.service.js">
         <metrics statements="37" coveredstatements="35" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
         <line num="5" count="6" type="stmt"/>
         <line num="6" count="6" type="stmt"/>
@@ -501,9 +501,9 @@
         <line num="78" count="6" type="stmt"/>
       </file>
     </package>
-    <package name="backend.src.endpoints.refresh.shemas">
+    <package name="SmartQuit-BackEnd.src.endpoints.refresh.shemas">
       <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
-      <file name="refresh.request.shema.js" path="F:\HUB\_MVP\_cyclic\backend\src\endpoints\refresh\shemas\refresh.request.shema.js">
+      <file name="refresh.request.shema.js" path="F:\HUB\_MVP\_cyclic\SmartQuit\SmartQuit-BackEnd\src\endpoints\refresh\shemas\refresh.request.shema.js">
         <metrics statements="3" coveredstatements="3" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
         <line num="6" count="6" type="stmt"/>
         <line num="8" count="5" type="cond" truecount="3" falsecount="0"/>
