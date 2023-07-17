@@ -23,9 +23,11 @@ async function smokeCount(req) {
         }
 
         const smokeDateTime = req.smokeDateTime;
+        const selectedReason = parseInt(req.selectedReason);
         
         await dbRepository.add({
-            smokeDateTime: smokeDateTime
+            smokeDateTime: smokeDateTime,
+            selectedReason: selectedReason
         });
 
         return Response.createResponse(true, "Smoke Added to Statistics", 200);
